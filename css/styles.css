@@ -10,20 +10,31 @@ body {
 h1 {
   font-size: 3.5rem;
   line-height: 1.5;
+  font-weight: 550;
 }
 
 h2 {
   font-size: 3rem;
   line-height: 1.5;
+  font-weight: 550;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 550;
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
 
 .navbar {
+  /* overflow: hidden; 
+  position: fixed;
+  top: 0; */
   padding: 0 0 4.5rem;
   font-family: "Ubuntu", sans-serif;
 }
@@ -50,9 +61,12 @@ h2 {
 
 /* Title Image */
 
-.title-Image {
+.title-image {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  top: 130px;
+  left: 50px;
 }
 
 /* Features */
@@ -61,6 +75,7 @@ h2 {
   text-align: center;
   background-color: white;
   padding: 7% 15%;
+  position: relative;
 }
 
 .feature-box > h3 {
@@ -114,4 +129,77 @@ h2 {
 
 .press-logo {
   margin: 20px 0px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  margin: 8%;
+}
+
+#pricing > p {
+  color: #8f8f8f !important;
+}
+
+.card {
+  text-align: center;
+}
+
+.card-deck {
+  margin-top: 3rem;
+}
+
+.card-body > p {
+  color: #8f8f8f;
+}
+
+
+/* CTA design */
+
+.action {
+  padding: 8% 0 3%;
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+}
+
+/* Footer */
+
+.footer {
+  padding: 3% 0 2%;
+  background-color: white;
+  text-align: center;
+}
+
+.copyright {
+  font-family: Montserrat;
+  padding: 30px 0 0;
+  color: #8f8f8f;
+}
+
+.footer-icons > button {
+  border-radius: 100%;
+}
+
+.footer-icons {
+  padding: 30px 0 10px;
+}
+
+.social-icon {
+  margin: 20px 20px;
+  color: black;
+}
+
+
+/* Responsive design */
+
+@media (max-width: 1045px) {
+  .title-image {
+    transform: rotate(0);
+    position: static;
+  }
+
+  #title {
+    text-align: center;
+  }
 }
