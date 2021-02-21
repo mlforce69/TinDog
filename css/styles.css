@@ -2,28 +2,30 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+h1, h2, h3 {
+  line-height: 1.5;
+  font-weight: 550;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+
 #title {
   background-color: #ff4c68;
   color: white;
 }
 
-h1 {
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: 550;
-}
 
-h2 {
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: 550;
-}
-
-h3 {
-  font-size: 2rem;
-  line-height: 1.5;
-  font-weight: 550;
-}
 
 .container-fluid {
   padding: 3% 15% 7%;
